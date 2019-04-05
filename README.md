@@ -5,7 +5,7 @@
 <br/>
 <br/>
 
-This is the first project of the Udacity Self-Driving Car NanoDegree. Here we develop a simple algorithm to detect lane markings using Python and [OpenCV](https://opencv.org/).
+This is the first project of the Udacity Self-Driving Car NanoDegree. Here we develop a simple algorithm to detect lane markings using Python and [OpenCV](https://opencv.org/). The original specifications of the project can be found in the [Udacity GitHub](https://github.com/udacity/CarND-LaneLines-P1).
 
 
 When we drive, we use our eyes to decide where to go. The lines on the road that show us where the lanes are act as our constant reference for where to steer the vehicle. Naturally, one of the first things we would like to do in developing a self-driving car is to automatically detect lane lines using an algorithm.
