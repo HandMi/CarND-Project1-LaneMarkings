@@ -76,7 +76,11 @@ The finished pipeline now produces continous lane markings:
 
 <details><summary>Finished Pipeline</summary>
 <p>
-<video width="640" height="360" controls src="test_videos_output/solidYellowLeft.mp4"  type="video/mp4"/>
+<video width="640" height="360" controls>
+ <source src="test_videos_output/solidYellowLeft.mp4"  type="video/mp4"/>
+Github does not support inline videos.
+ <a href="https://github.com/HandMi/CarND-Project1-LaneMarkings/raw/master/test_videos_output/solidYellowLeft.mp4" target="_blank">Download Video</a>
+</video>
 </p>
 </details>
 
@@ -86,10 +90,13 @@ Additionally, another video from a different car and camera was provided to prob
 
 <details><summary>Challenge Video</summary>
 <p>
-<video width="640" height="360" controls src="test_videos_output/challenge_1.mp4"  type="video/mp4"/>
+<video width="640" height="360" controls>
+ <source src="test_videos_output/challenge_1.mp4"  type="video/mp4"/>
+Github does not support inline videos.
+ <a href="https://github.com/HandMi/CarND-Project1-LaneMarkings/raw/master/test_videos_output/challenge_1.mp4" target="_blank">Download Video</a>
+</video>
 </p>
 </details>
-<br/>
 
 As we can see, there are several issue with this trace:
 
@@ -107,10 +114,13 @@ history of our detected line and only accept new lines which don't differ to muc
 
 <details><summary>Challenge Video with Lane History</summary>
 <p>
-<video width="640" height="360" controls src="test_videos_output/challenge_2.mp4"  type="video/mp4"/>
+<video width="640" height="360" controls>
+ <source src="test_videos_output/challenge_2.mp4"  type="video/mp4"/>
+Github does not support inline videos.
+ <a href="https://github.com/HandMi/CarND-Project1-LaneMarkings/raw/master/test_videos_output/challenge_2.mp4" target="_blank">Download Video</a>
+</video>
 </p>
 </details>
-<br/>
 
 Here a yellow line means that the lane was not changed from the last frame because the new lane differed too much from the average. After 10 frames the line turns and red and is reset.
 As we can see, the line is already tracked much more smoothly. However, we still lose track of the lane on the bright surface because the contrast between the street and the yellow lane is too low after rgb to grayscale conversion.
@@ -135,7 +145,11 @@ The two lanes are now tracked almost continuously throughout the trace:
 
 <details><summary>Challenge Video with Color Filter</summary>
 <p>
-<video width="640" height="360" controls src="test_videos_output/challenge_3.mp4"  type="video/mp4"/>
+<video width="640" height="360" controls>
+ <source src="test_videos_output/challenge_3.mp4"  type="video/mp4"/>
+Github does not support inline videos.
+ <a href="https://github.com/HandMi/CarND-Project1-LaneMarkings/raw/master/test_videos_output/challenge_3.mp4" target="_blank">Download Video</a>
+</video>
 </p>
 </details>
 
